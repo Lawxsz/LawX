@@ -35,6 +35,7 @@ def menu():
  print(f"""
 {Fore.LIGHTCYAN_EX}|======================================================|
 {Fore.LIGHTMAGENTA_EX} 1. Scrapping (IDS) | 2. Mass Friend Request (BETA)
+{Fore.LIGHTMAGENTA_EX} 3. Discord Reporter
 {Fore.LIGHTCYAN_EX}|=====================================================| 
 \n{Fore.YELLOW}Guide in github.com/Lawxsz/LawX
 """)
@@ -61,6 +62,21 @@ def menu():
     friendreq()
     os.system('cls')
     print("\n\nDone!!")
+ elif ask == "3":
+  from report import sendn, sendm
+  askt = input("If u want 1 report choice 1, if u want 5 choice 2 (1/2):")
+  if askt == "1":
+      sendn()
+      askd = input(f"{Fore.LIGHTYELLOW_EX}¿Go to menu? (y/n): ")
+      if askd == "y" or "Y" or "YES" or "yes":
+          menu()
+      elif askd == "n" or "N" or "NO" or "no":
+          exit()
+  elif askt == "2":
+      sendm()
+      askd = input(f"{Fore.LIGHTYELLOW_EX}¿Go to menu? (y/n): ")
+      if askd == "y" or "Y" or "YES" or "yes":
+          menu()
  else:
   print(f"{Fore.LIGHTRED_EX}Invalid choice!")
   sleep(2)
