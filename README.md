@@ -3,7 +3,7 @@
 # Features 🛡️ 
 - 💢 Mass Scrapping (IDs)
 - 🌀  Mass Friend Request (BETA)
-
+- ⚜️ Normal/Mass Report Server (BETA)
 # Guide 🧲 
 ```
 git clone https://github.com/Lawxsz/LawX/
@@ -15,7 +15,7 @@ Put your token in data.json (User token), put the guild id to be scrapped and a 
 - 🌚 Mass Friend DM
 - 🎀 DM ALL (Bot and selfbot)
 - ✨ Raid Selfbot/Bot
-- 💼 Maybe Mass Report!!
+- 💼 Mass Report (user soon)!!
 - 📜 Suggest open!! (open a Issues)
 
 # Read Me
