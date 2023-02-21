@@ -11,6 +11,9 @@ pip3 install -r requeriments.txt
 ```
 Put your token in data.json (User token), put the guild id to be scrapped and a channel that all users can see
 
+# BUGS
+- MASS FRIEND/MASS REPORT not work, discord api have a hCaptcha!! (soon fix)
+
 # TODO
 - 🌚 Mass Friend DM
 - 🎀 DM ALL (Bot and selfbot)
